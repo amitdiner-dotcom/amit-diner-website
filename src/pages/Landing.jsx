@@ -72,14 +72,26 @@ export default function Landing() {
                 מתמחה בהיסטוריה, אזרחות, תנ״ך וספרות.
                 חומרי לימוד, סיכומים ושאלות לתרגול — הכל כאן, בחינם.
               </p>
-              <a
-                href="tel:+972544248782"
-                className="hero-phone"
-                aria-label="התקשרי לעמית"
-              >
-                <i className="ti ti-phone" aria-hidden="true" />
-                054-4248782
-              </a>
+              <div className="hero-buttons">
+                <a
+                  href="tel:+972544248782"
+                  className="hero-phone"
+                  aria-label="התקשרי לעמית"
+                >
+                  <i className="ti ti-phone" aria-hidden="true" />
+                  054-4248782
+                </a>
+                <a
+                  href="https://wa.me/972544248782"
+                  className="hero-whatsapp"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="שלחי הודעת WhatsApp לעמית (נפתח בחלון חדש)"
+                >
+                  <i className="ti ti-brand-whatsapp" aria-hidden="true" />
+                  WhatsApp
+                </a>
+              </div>
             </div>
           </section>
 

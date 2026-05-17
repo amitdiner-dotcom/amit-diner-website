@@ -183,6 +183,17 @@ body.no-animations * { transition: none !important; animation: none !important; 
 .hero-phone:hover, .hero-phone:focus { background: var(--green-dark); color: #fff; outline: 2px solid var(--green-mid); outline-offset: 2px; }
 .hero-phone i { font-size: 18px; color: var(--green-mid); transition: color 0.18s; }
 .hero-phone:hover i, .hero-phone:focus i { color: #fff; }
+.hero-buttons { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.hero-whatsapp {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 16px; text-decoration: none;
+  color: #fff; background: #25d366;
+  border: 1px solid #1ebe5d; border-radius: 50px;
+  padding: 10px 20px; font-weight: 600;
+  min-height: 48px; transition: background 0.18s, color 0.18s;
+}
+.hero-whatsapp:hover, .hero-whatsapp:focus { background: #1ebe5d; outline: 2px solid #25d366; outline-offset: 2px; }
+.hero-whatsapp i { font-size: 18px; }
 
 /* Subject cards */
 .subjects-section { padding: 0 2.5rem 3rem; }
